@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+    width: 50vw;
+    background-color: wheat;
+    color: dodgerblue;
+    border: 3px solid dodgerblue;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-weight: bolder;
+}
+input {
+    width: 99%;
+    padding: 12px 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    border: none;
+}
+button {
+    background-color: dodgerblue;
+    border: none;
+    color: wheat;
+    padding: 15px;
+    margin: 5px;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: wheat;
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+}
